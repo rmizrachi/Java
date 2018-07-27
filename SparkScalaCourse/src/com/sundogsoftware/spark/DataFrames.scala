@@ -52,8 +52,8 @@ object DataFrames {
     println("Group by age:")
     people.groupBy("age").count().show()
     
-    println("Make everyone 10 years older:")
-    people.select(people("name"), people("age") + 10).show()
+    println("Make everyone 20 years older:")
+    people.select(people("name"), people("age") + 20).show()
     
     spark.stop()
   }
