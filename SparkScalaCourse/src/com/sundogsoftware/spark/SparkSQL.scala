@@ -5,6 +5,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.sql._
 import org.apache.log4j._
 
+//Testing Spark SQL-- Important
 object SparkSQL {
   
   case class Person(ID:Int, name:String, age:Int, numFriends:Int)
